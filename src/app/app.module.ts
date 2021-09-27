@@ -14,16 +14,13 @@ import { ServicoComponent } from './components/servico/servico.component';
 import { MecanicoComponent } from './components/mecanico/mecanico.component';
 import { ServicoAlterarComponent } from './components/servico-alterar/servico-alterar.component';
 import { CorridaComponent } from './components/corrida/corrida/corrida.component';
-<<<<<<< HEAD
 import { AuxiliarComponent } from './components/auxiliar/auxiliar.component';
 import { AuxiliarAlterarComponent } from './components/auxiliar-alterar/auxiliar-alterar.component';
-=======
 import { CorridaCarroPilotoComponent } from './components/corrida-carro-piloto/corrida-carro-piloto.component';
 import { CorridaCarroPilotoAlterarComponent } from './components/corrida-carro-piloto-alterar/corrida-carro-piloto-alterar.component';
 import { MecanicoAlterarComponent } from './components/mecanico-alterar/mecanico-alterar.component';
 import { CarroCorridaPilotoAlterarComponent } from './components/carro-corrida-piloto-alterar/carro-corrida-piloto-alterar.component';
 import { CarroCorridaPilotoComponent } from './components/carro-corrida-piloto/carro-corrida-piloto.component';
->>>>>>> 25f7141d21e3b1f361e25efa54c8d65fc8111770
 
 @NgModule({
   declarations: [
@@ -36,16 +33,13 @@ import { CarroCorridaPilotoComponent } from './components/carro-corrida-piloto/c
     ServicoComponent,
     MecanicoComponent,
     ServicoAlterarComponent,
-<<<<<<< HEAD
     AuxiliarComponent,
     AuxiliarAlterarComponent
-=======
     CorridaCarroPilotoComponent,
     CorridaCarroPilotoAlterarComponent,
     MecanicoAlterarComponent,
     CarroCorridaPilotoAlterarComponent,
     CarroCorridaPilotoComponent
->>>>>>> 25f7141d21e3b1f361e25efa54c8d65fc8111770
   ],
   imports: [
     BrowserModule,
