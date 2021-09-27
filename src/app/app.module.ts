@@ -8,12 +8,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CarroComponent } from './components/carro/carro.component';
 import { CarroAlterarComponent } from './components/carro-alterar/carro-alterar.component';
+import { PilotoComponent } from './components/piloto/piloto.component';
+import { PilotoAlterarComponent } from './components/piloto-alterar/piloto-alterar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CarroComponent,
-    CarroAlterarComponent
+    CarroAlterarComponent,
+    PilotoComponent,
+    PilotoAlterarComponent
   ],
   imports: [
     BrowserModule,
