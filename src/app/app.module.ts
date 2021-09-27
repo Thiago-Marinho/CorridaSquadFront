@@ -10,6 +10,7 @@ import { CarroComponent } from './components/carro/carro.component';
 import { CarroAlterarComponent } from './components/carro-alterar/carro-alterar.component';
 import { PilotoComponent } from './components/piloto/piloto.component';
 import { PilotoAlterarComponent } from './components/piloto-alterar/piloto-alterar.component';
+import { ServicoComponent } from './components/servico/servico.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { PilotoAlterarComponent } from './components/piloto-alterar/piloto-alter
     CarroComponent,
     CarroAlterarComponent,
     PilotoComponent,
-    PilotoAlterarComponent
+    PilotoAlterarComponent,
+    ServicoComponent
   ],
   imports: [
     BrowserModule,
