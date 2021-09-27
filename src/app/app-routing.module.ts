@@ -16,17 +16,14 @@ const routes: Routes = [
   { path: "carro/alterar/:id", component: CarroAlterarComponent},
   { path: "piloto", component: PilotoComponent},
   { path: "piloto/alterar/:id", component: PilotoAlterarComponent},
-<<<<<<< HEAD
   { path: "servico", component: ServicoComponent},
   { path: "mecanico", component:MecanicoComponent},
-  { path: "mecanico/alterar/:id", component:MecanicoAlterarComponent}
-=======
+  { path: "mecanico/alterar/:id", component:MecanicoAlterarComponent},
   { path: "corrida", component: CorridaComponent},
   { path: "servico", component: ServicoComponent},
   { path: "servico/alterar/:id", component: ServicoAlterarComponent}
   // { path: "", component: },
   // { path: "", component: },
->>>>>>> 56c559047402da50d5d5d764a8cda2c0e623a435
   // { path: "", component: },
   // { path: "", component: },
   // { path: "", component: },
