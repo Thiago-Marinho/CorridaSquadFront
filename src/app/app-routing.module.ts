@@ -9,6 +9,8 @@ import { PilotoAlterarComponent } from './components/piloto-alterar/piloto-alter
 import { PilotoComponent } from './components/piloto/piloto.component';
 import { ServicoAlterarComponent } from './components/servico-alterar/servico-alterar.component';
 import { ServicoComponent } from './components/servico/servico.component';
+import { MecanicoComponent } from './components/mecanico/mecanico.component';
+import { MecanicoAlterarComponent } from './components/mecanico-alterar/mecanico-alterar.component';
 
 
 const routes: Routes = [
@@ -16,6 +18,9 @@ const routes: Routes = [
   { path: "carro/alterar/:id", component: CarroAlterarComponent},
   { path: "piloto", component: PilotoComponent},
   { path: "piloto/alterar/:id", component: PilotoAlterarComponent},
+  { path: "servico", component: ServicoComponent},
+  { path: "mecanico", component:MecanicoComponent},
+  { path: "mecanico/alterar/:id", component:MecanicoAlterarComponent},
   { path: "corrida", component: CorridaComponent},
   { path: "servico", component: ServicoComponent},
   { path: "servico/alterar/:id", component: ServicoAlterarComponent},
