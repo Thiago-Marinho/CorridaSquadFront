@@ -1,6 +1,6 @@
 <div class="container">
     <ul class="list-group">
-        <li class="list-group-item" *ngFor="let carro of carros"> {{piloto.nome}} <button class="btn btn-primary" routerLink="/piloto/alterar/{{piloto.id}}">Alterar</button></li>
+        <li class="list-group-item" *ngFor="let piloto of pilotos"> {{piloto.nome}} <button class="btn btn-primary" routerLink="/piloto/alterar/{{piloto.id}}">Alterar</button></li>
     </ul>
     <br>
     <button class="btn btn-success" (click)="showPostForm()">Incluir novo piloto</button>
