@@ -13,6 +13,7 @@ const routes: Routes = [
   { path: "carro/alterar/:id", component: CarroAlterarComponent},
   { path: "piloto", component: PilotoComponent},
   { path: "piloto/alterar/:id", component: PilotoAlterarComponent},
+  { path: "corrida", component: CorridaComponent},
   { path: "servico", component: ServicoComponent}
   // { path: "", component: },
   // { path: "", component: },
