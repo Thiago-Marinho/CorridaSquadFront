@@ -1,0 +1,14 @@
+<div class="container">
+    <h2>Alterar auxiliar do id: {{auxiliar.id}}</h2>
+    <form>
+        <label for="auxiliar-nome">Nome auxiliar:</label>
+        <input name="nome-auxiliar"class="form form-control" id="auxiliar-nome" [(ngModel)]="auxiliar.nome" #auxiliarNome required><br>
+        <label for="auxiliar-mecanico">Id do mecânico responsável: </label>
+        <input name="mecanico-auxiliar" class="form form-control" id="auxiliar-mecanico" [(ngModel)]="auxiliar.id_mecanico" #auxiliarMecanico required=""><br>
+        <label for="auxiliar-equipe">Equipe do auxiliar: </label>
+        <input name="equipe-auxiliar" class="form form-control" id="auxiliar-equipe" [(ngModel)]="auxiliar.id_equipe" #auxiliarEquipe required><br><br>
+        <button class="btn btn-danger" (click)="goBack()">Fechar sem salvar</button>
+        <input type="submit" class="btn btn-success" (click)="alterar()">
+    </form>
+
+</div>

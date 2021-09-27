@@ -1,0 +1,19 @@
+<div class="container">
+    <ul class="list-group">
+        <li class="list-group-item" *ngFor="let auxiliar of auxiliares"> {{auxiliar.nome}} <button class="btn btn-primary" routerLink="/auxiliar/alterar/{{auxiliar.id}}">Alterar</button></li>
+    </ul>
+    <br>
+    <button class="btn btn-success" (click)="showPostForm()">Incluir novo auxiliar</button>
+    
+    
+    <div *ngIf="boolPostForm">
+        <label for="auxiliar-nome">Nome auxiliar:</label>
+        <input class="form form-control" id="auxiliar-nome" #auxiliarNome required><br>
+        <label for="auxiliar-mecanico">Id do mecânico responsável: </label>
+        <input class="form form-control" id="auxiliar-mecanico" #auxiliarMecanico required=""><br>
+        <label for="auxiliar-equipe">Equipe do auxiliar: </label>
+        <input class="form form-control" id="auxiliar-equipe" #auxiliarEquipe required><br><br>
+        <button class="btn btn-danger" (click)="hidePostForm()">Fechar sem salvar</button>
+        <input type="submit" class="btn btn-success" (click)="save(auxiliarNome.value, auxiliarMecanico.value, auxiliarEquipe.value); auxiliarNome.value=''; auxiliarMecanico.value=''; auxiliarEquipe.value='';" value="Incluir ">
+    </div>
+</div>

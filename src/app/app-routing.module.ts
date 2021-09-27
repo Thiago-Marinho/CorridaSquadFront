@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AuxiliarAlterarComponent } from './components/auxiliar-alterar/auxiliar-alterar.component';
+import { AuxiliarComponent } from './components/auxiliar/auxiliar.component';
 import { CarroAlterarComponent } from './components/carro-alterar/carro-alterar.component';
 import { CarroComponent } from './components/carro/carro.component';
 import { CorridaComponent } from './components/corrida/corrida/corrida.component';
@@ -16,7 +18,9 @@ const routes: Routes = [
   { path: "piloto/alterar/:id", component: PilotoAlterarComponent},
   { path: "corrida", component: CorridaComponent},
   { path: "servico", component: ServicoComponent},
-  { path: "servico/alterar/:id", component: ServicoAlterarComponent}
+  { path: "servico/alterar/:id", component: ServicoAlterarComponent},
+  { path: "auxiliar", component: AuxiliarComponent},
+  { path: "auxiliar/alterar/:id", component: AuxiliarAlterarComponent,}
   // { path: "", component: },
   // { path: "", component: },
   // { path: "", component: },
