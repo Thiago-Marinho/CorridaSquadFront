@@ -1,3 +1,4 @@
+import { Location } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { piloto } from 'src/app/entities/piloto';
@@ -15,9 +16,8 @@ export class PilotoAlterarComponent implements OnInit {
     nome: '',
     id_equipe: 0
   }
-  location: any;
 
-  constructor(private route: ActivatedRoute, private pilotoService: PilotoService) { }
+  constructor(private route: ActivatedRoute, private pilotoService: PilotoService, private location: Location) { }
 
   ngOnInit(): void {
     this.loadPiloto()
