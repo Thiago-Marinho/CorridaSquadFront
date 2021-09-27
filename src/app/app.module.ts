@@ -13,6 +13,7 @@ import { PilotoAlterarComponent } from './components/piloto-alterar/piloto-alter
 import { ServicoComponent } from './components/servico/servico.component';
 import { MecanicoComponent } from './components/mecanico/mecanico.component';
 import { ServicoAlterarComponent } from './components/servico-alterar/servico-alterar.component';
+import { CorridaComponent } from './components/corrida/corrida/corrida.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { ServicoAlterarComponent } from './components/servico-alterar/servico-al
     CarroAlterarComponent,
     PilotoComponent,
     PilotoAlterarComponent,
+    CorridaComponent,
     ServicoComponent,
     MecanicoComponent,
     ServicoAlterarComponent
