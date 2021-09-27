@@ -27,7 +27,7 @@ export class PilotoAlterarComponent implements OnInit {
     this.piloto.id = Number(this.route.snapshot.paramMap.get('id'))
   }
 
-  alterar(piloto: piloto): void {
+  alterar(): void {
     if(this.piloto) {
       this.pilotoService.alterar(this.piloto).subscribe(resp => this.goBack())
     }
