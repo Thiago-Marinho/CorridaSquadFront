@@ -52,6 +52,4 @@ export class ServicoComponent implements OnInit {
     this.servicoService.listar().subscribe(resp => this.servicos = resp)
   }
 
-
-
 }
