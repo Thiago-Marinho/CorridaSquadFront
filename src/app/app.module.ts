@@ -14,6 +14,9 @@ import { ServicoComponent } from './components/servico/servico.component';
 import { MecanicoComponent } from './components/mecanico/mecanico.component';
 import { ServicoAlterarComponent } from './components/servico-alterar/servico-alterar.component';
 import { CorridaComponent } from './components/corrida/corrida/corrida.component';
+import { CorridaCarroPilotoComponent } from './components/corrida-carro-piloto/corrida-carro-piloto.component';
+import { CorridaCarroPilotoAlterarComponent } from './components/corrida-carro-piloto-alterar/corrida-carro-piloto-alterar.component';
+import { MecanicoAlterarComponent } from './components/mecanico-alterar/mecanico-alterar.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +28,10 @@ import { CorridaComponent } from './components/corrida/corrida/corrida.component
     CorridaComponent,
     ServicoComponent,
     MecanicoComponent,
-    ServicoAlterarComponent
+    ServicoAlterarComponent,
+    CorridaCarroPilotoComponent,
+    CorridaCarroPilotoAlterarComponent,
+    MecanicoAlterarComponent
   ],
   imports: [
     BrowserModule,
