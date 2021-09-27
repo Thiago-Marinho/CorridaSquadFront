@@ -34,11 +34,13 @@ export class ServicoComponent implements OnInit {
     this.boolPostForm = false
   }
 
-  save(descricao: string, data_servico: string, id_mecanico: number, id_carro: number): void {
+  save(descricao: string, data_servico: string, id_mecanico: string, id_carro: string): void {
+    const id_carron = Number(id_carro)
+    const id_mecanicon = Number(id_mecanico)
     this.servico = {
       id: 0,
-      id_carro: id_carro,
-      id_mecanico: id_mecanico,
+      id_carro: id_carron,
+      id_mecanico: id_mecanicon,
       descricao: descricao,
       data_servico: data_servico
     }
