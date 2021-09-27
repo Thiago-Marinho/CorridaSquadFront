@@ -1,9 +1,13 @@
+<<<<<<< HEAD
 import { Component, Input, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
 import { mecanico } from 'src/app/entities/mecanico';
 import { MecanicoService } from 'src/app/services/mecanico.service';
 import { Location } from '@angular/common';
+=======
+import { Component, OnInit } from '@angular/core';
+>>>>>>> 56c559047402da50d5d5d764a8cda2c0e623a435
 
 @Component({
   selector: 'app-mecanico-alterar',
@@ -12,6 +16,7 @@ import { Location } from '@angular/common';
 })
 export class MecanicoAlterarComponent implements OnInit {
 
+<<<<<<< HEAD
   mecanico: mecanico = {
     id: 0,
     nome: '',    
@@ -42,6 +47,11 @@ export class MecanicoAlterarComponent implements OnInit {
 
   goBack():void {
     this.location.back()
+=======
+  constructor() { }
+
+  ngOnInit(): void {
+>>>>>>> 56c559047402da50d5d5d764a8cda2c0e623a435
   }
 
 }
